@@ -29,5 +29,5 @@ form.addEventListener("submit", (e) => {
   console.log("form submitted");
 
   // redirecting manually after validation
-    window.location.href = `/newsletter-sign-up-with-success-message-main/success.html?email=${encodeURIComponent(email.value)}`;
+window.location.href = `/success.html?email=${encodeURIComponent(email.value)}`;
 });

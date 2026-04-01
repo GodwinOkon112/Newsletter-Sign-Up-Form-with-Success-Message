@@ -31,8 +31,8 @@ Examples:
 
 ### Links
 
-Live Site URL:
-Repository URL:
+Live Site URL: https://newsletter-sign-up-form-with-succes-five.vercel.app/
+Repository URL: https://github.com/GodwinOkon112/Newsletter-Sign-Up-Form-with-Success-Message
 
 ## My Process
 

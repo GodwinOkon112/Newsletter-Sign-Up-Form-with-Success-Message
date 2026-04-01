@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | success message</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="./script.js" defer></script> -->
+  </head>
+  <body>
+    <main class="main">
+      <div class="success___container">
+        <div class="middle">
+          <div class="success__img">
+            <img src="./assets/images/icon-success.svg" alt="" />
+          </div>
+          <h1 class="text__h1">Thanks for subscribing!</h1>
+          <p class="text__p">
+            A confirmation email has been sent to <b id="user"></b> Please open
+            it and click the button inside to confirm your subscription.
+          </p>
+        </div>
+        <button class="input__button success__button" type="submit">
+          <a
+            href="/newsletter-sign-up-with-success-message-main/index.html?email="
+            >Dismiss message</a
+          >
+        </button>
+      </div>
+    </main>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const email = params.get("email");
+
+      document.getElementById("user").innerText = email;
+    </script>
+  </body>
+</html>
